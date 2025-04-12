@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -12,9 +12,18 @@ body {
     padding: 20px;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 20px black;
 }
-h1,
+h1 {
+    font-family: "Nabla", system-ui;
+    font-size: 50px;
+    text-shadow: 3px 3px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12;}
 h2 {
     color: #007bff;
 }
