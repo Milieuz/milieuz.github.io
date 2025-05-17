@@ -1,0 +1,100 @@
+/* Written on Friday May 16 2025 for Code: You by Evan Wheeler */
+
+@import url(//fonts.googleapis.com/css?family=Nabla);
+@import url('css/reset.css');
+
+body{
+    display: flex;
+    justify-content: center;  
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    color: #333;
+    background-color: #007bff;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+article {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 20px 20px black;
+    padding: 40px;
+}
+
+article img {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px; */
+    margin: 40px;
+    width: 150px;
+}
+
+article a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Nabla", system-ui;
+    font-size: 40px;
+    text-shadow: 3px 3px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12;
+}
+
+.contact{
+    text-align: center;
+}
+
+.company{
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* Media Queries Section: While it may look rough below 320px, this is generally regarded as the smallest possiblescreen size. 
+i.e. the screen thresholds are as follows:
+Small: 320px to 499px
+Medium: 500 to 767px
+Large: >= 768px */
+
+@media screen and (min-width: 500px) {
+    body{
+        background-color: #007bff;
+    }
+    .profile{
+        display: flex;
+        justify-content: center; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: #007bff;
+    }
+    article{
+        display: flex;
+        justify-content: center; 
+    }
+    article img {
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin: 40px;
+        width: 250px;
+    }
+    .profile{
+        flex-direction: column;
+    }
+}
